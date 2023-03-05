@@ -11,8 +11,8 @@
 namespace {
     const size_t NEXT = 32;
     const size_t INITIAL_SIZE = 32;
-    const long double MIN_LOAD_FACTOR = 0.2;
-    const long double MAX_LOAD_FACTOR = 0.7;
+    const long double MIN_LOAD_FACTOR = 0.1;
+    const long double MAX_LOAD_FACTOR = 0.5;
 
     template<class KeyType, class ValueType>
     class Bucket {
